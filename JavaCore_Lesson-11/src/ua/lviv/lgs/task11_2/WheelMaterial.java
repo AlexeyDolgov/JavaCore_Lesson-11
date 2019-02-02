@@ -2,6 +2,6 @@ package ua.lviv.lgs.task11_2;
 
 public enum WheelMaterial {
 
-	Кожа, Алькантара;
+	РљРѕР¶Р°, РђР»СЊРєР°РЅС‚Р°СЂР°;
 	
 }

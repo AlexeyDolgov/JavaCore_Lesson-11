@@ -14,13 +14,13 @@ public class Main {
 			array[i] = getRandomValueFromRange(-1000, 1000);
 		}
 
-		System.out.println("�������� ������: " + Arrays.toString(array));
+		System.out.println("Исходный массив: " + Arrays.toString(array));
 
 		Arrays.sort(array);
-		System.out.println("�������� ������, ���������������� �� ������������: " + Arrays.toString(array));
+		System.out.println("Исходный массив, отсортированнный по возразатанию: " + Arrays.toString(array));
 
 		Arrays.sort(array, Collections.reverseOrder());
-		System.out.println("�������� ������, ���������������� �� ��������: " + Arrays.toString(array));
+		System.out.println("Исходный массив, отсортированнный по убыванию: " + Arrays.toString(array));
 
 	}
 
